@@ -14,12 +14,9 @@ url = host_url + 'shot.jpg'
 arguement_phrase = argparse.ArgumentParser()
 arguement_phrase.add_argument("--prototxt", required=True,
 	help="path to 	")
-arguement_phrase.add_argument("--model", required=True,
-	help="path to Caffe pre-trained model")
-arguement_phrase.add_argument("--source", required=True, 
-	help="Source of video stream (webcam/host)")
-arguement_phrase.add_argument("-c", "--confidence", type=float, default=0.2,
-	help="minimum probability to filter weak detections")
+arguement_phrase.add_argument("--model", required=True)
+arguement_phrase.add_argument("--source", required=True)
+arguement_phrase.add_argument("-c", "--confidence", type=float, default=0.2)
 arguement = vars(arguement_phrase.parse_args())
 
 
