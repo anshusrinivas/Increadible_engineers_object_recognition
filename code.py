@@ -11,12 +11,7 @@ from urllib.request import urlopen
 host_url = 'http://192.168.0.101:8080/'
 url = host_url + 'shot.jpg'
 
-arguement_phrase = argparse.ArgumentParser()
-arguement_phrase.add_argument("--prototxt", required=True)
-arguement_phrase.add_argument("--model", required=True)
-arguement_phrase.add_argument("--source", required=True)
-arguement_phrase.add_argument("-c", "--confidence", type=float, default=0.2)
-arguement = vars(arguement_phrase.parse_args())
+arguement={"prototxt":"MobileNetSSD_deploy.prototxt.txt","model":"MobileNetSSD_deploy.caffemodel","source":"webcam","confidence":0.2}
 
 
 CLASSES = ["background", 
