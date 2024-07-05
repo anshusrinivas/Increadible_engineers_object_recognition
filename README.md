@@ -35,10 +35,10 @@ Implementation Steps:<br>
     Connectivity: Options like Bluetooth, Wi-Fi for data transmission.<br>
     Audio Output: Speakers or earphones for audio feedback.<br><br>
 # Additional Considerations
-    Affordability: Ensure the device is cost-effective to make it accessible to a larger population.<br>
-    Portability: Design the device to be lightweight and easy to carry.<br>
-    User Privacy: Implement strong privacy measures to protect users' data.<br>
-    Legal and Ethical Compliance: Ensure the device complies with legal standards and ethical guidelines related to assistive technologies.<br>
+    Affordability: Ensure the device is cost-effective to make it accessible to a larger population.
+    Portability: Design the device to be lightweight and easy to carry.
+    User Privacy: Implement strong privacy measures to protect users' data.
+    Legal and Ethical Compliance: Ensure the device complies with legal standards and ethical guidelines related to assistive technologies.
 
 ## Instructions to run the code<br><br>
 Clone the repo (or) download zip file and extract<br>
