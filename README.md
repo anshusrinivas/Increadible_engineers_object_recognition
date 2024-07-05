@@ -10,11 +10,11 @@ Empowering Independence through Technology.
 Target:
     Blind and visually impaired individuals<br>
     Organizations supporting visually impaired persons<br>
-    Developers and researchers in assistive technologies<br>
+    Developers and researchers in assistive technologies<br><br>
 Implementation Steps:<br>
 1.Problem Understanding and Research<b>
     Identify the Needs: Understand the specific requirements and challenges faced by blind and visually impaired individuals. This could involve consulting with organizations and individuals who are visually impaired.<br>
-    Research Existing Solutions: Analyze current assistive technologies to identify gaps and areas for improvement.<br>
+    Research Existing Solutions: Analyze current assistive technologies to identify gaps and areas for improvement.<br><br>
 2. Software Development<br>
     Data Collection and Annotation: Collect and annotate a large dataset of images with various objects commonly encountered by visually impaired individuals.<br>
     Model Selection: Choose an appropriate object detection model (e.g., YOLO, SSD, Faster R-CNN)(in this case we have chosen openCV).<br>
