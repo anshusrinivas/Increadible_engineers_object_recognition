@@ -6,6 +6,11 @@ import cv2
 from urllib.request import urlopen
 from keras.models import Sequential
 from keras.layers import Conv2D, Dense, Dropout, Flatten, MaxPooling2D
+import pyttsx3 as py
+
+en = py.init()
+en.setProperty('rate', 125)
+en.setProperty('volume', 150)
 
 host_url = 'http://192.168.0.101:8080/'
 url = host_url + 'shot.jpg'
@@ -71,6 +76,7 @@ while True:
     model_obj.setInput(blob)
     detections = model_obj.forward()
 
+    speech = ""
     for i in np.arange(0, detections.shape[2]):
         confidence = detections[0, 0, i, 2]
         if confidence > confidence_threshold:
@@ -94,7 +100,14 @@ while True:
                     maxind = int(np.argmax(pred))
                     cv2.putText(frame, emotion_dict[maxind], (x+20, y-60), cv2.FONT_HERSHEY_SIMPLEX, 1, 
                                 (255, 255, 255), 2, cv2.LINE_AA)
+                    speech += f'There is a person in front of you. They look {emotion_dict[maxind]}. '
+            else:
+                speech += f'There is a {CLASSES[idx]} in front of you. '
 
+    if speech:
+        en.say(speech)
+        en.runAndWait()
+    
     cv2.imshow("Frame", frame)
     key = cv2.waitKey(1) & 0xFF
     if key == ord("q"):
