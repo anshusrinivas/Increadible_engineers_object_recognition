@@ -19,21 +19,21 @@ Implementation Steps:<br>
     Data Collection and Annotation: Collect and annotate a large dataset of images with various objects commonly encountered by visually impaired individuals.<br>
     Model Selection: Choose an appropriate object detection model (e.g., YOLO, SSD, Faster R-CNN)(in this case we have chosen openCV).<br>
     Training the Model: Train the model on the annotated dataset, ensuring it can accurately detect and identify objects.<br>
-    Optimization: Optimize the model for real-time performance on the selected hardware.<br>
+    Optimization: Optimize the model for real-time performance on the selected hardware.<br><br>
 3. Integration and Testing<br>
     System Integration: Integrate the camera, processing unit, and audio output. Ensure seamless communication between components.<br>
     User Interface: Develop a simple and intuitive user interface, possibly controlled by voice commands.<br>
-    Testing: Conduct extensive testing in various environments to ensure reliability and accuracy. Gather feedback from visually impaired users for further refinement.<br>
+    Testing: Conduct extensive testing in various environments to ensure reliability and accuracy. Gather feedback from visually impaired users for further refinement.<br><br>
 4. Deployment and Maintenance<br>
     Deployment: Distribute the device to target users and provide training on its usage.<br>
     Support and Updates: Offer ongoing support and regular updates to improve functionality based on user feedback.<br>
-    Community Building: Create a community of users and developers to share experiences and collaborate on improvements.<br>
+    Community Building: Create a community of users and developers to share experiences and collaborate on improvements.<br><br>
 5. Hardware Selection(yet to be implemented)<br>
     Camera: High-quality camera to capture real-time images.<br>
     Processing Unit: A powerful processor like NVIDIA Jetson Nano, Raspberry Pi, or a mobile phone.<br>
     Power Supply: Portable and long-lasting battery.<br>
     Connectivity: Options like Bluetooth, Wi-Fi for data transmission.<br>
-    Audio Output: Speakers or earphones for audio feedback.<br>
+    Audio Output: Speakers or earphones for audio feedback.<br><br>
 # Additional Considerations
     Affordability: Ensure the device is cost-effective to make it accessible to a larger population.<br>
     Portability: Design the device to be lightweight and easy to carry.<br>
