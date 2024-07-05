@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='/images/11.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        svg {
+            display: block;
+            margin: 100px auto 0 auto;
+        }
+
+        .ddd {
+            width: 320px;
+            height: 50px;
+            padding: 10px;
+            border: 6px solid gray;
+            background-color: white;
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <svg width="550" height="350">
+        <rect width="100%" height="100%" x="0" y="0" rx="20" ry="20" fill="#797979" />
+    </svg>
+
+    <div class="ddd">Here I am to help you out!!!</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="s1">
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">-->
+    <style>
+        .s2 {
+    color: aliceblue;
+}
+
+.s3 {
+    font-style: italic;
+    font-size: 70px;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    color: beige;
+}
+
+.vdo {
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .vdo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .vdo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.s4 {
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: #000000;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    align-items: end;
+    height: 100%;
+    outline: none;
+    border: #000000;
+}
+
+.s5 {
+    text-align: right;
+    align-items: center;
+    border-color: black;
+    border: none;
+}
+
+.s4:hover {
+    color: whitesmoke;
+    background-color: rgb(0, 11, 42);
+    border: none;
+}
+
+.dd {
+    color: #000000
+}
+
+.cn {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color: transparent;
+    color: #9f3232;
+}
+
+.txt {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 1000;
+    background-color: transparent;
+    color: #da1212;
+}
+    </style>
+</head>
+<header>
+    <h1 class="s2">INCREADIBLE ENGINEERS</h1>
+    <video autoplay loop muted plays-inline class="vdo">
+        <source src="static/images/techbg.mp4" type="video/mp4">
+    </video>
+</header>
+
+<body>
+    <nav>
+        <h2 class="s3">
+            Multipurpose AI for Visually Impaired <br> and Blind Person<br>
+            <button class="cn"><a class="txt" href="{{ url_for('inside') }}">Empowering Independence Through Technology </a></button>
+        </h2>
+    </nav>
+</body>
+</html>
