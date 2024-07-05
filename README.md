@@ -39,3 +39,17 @@ Implementation Steps:<br>
     Portability: Design the device to be lightweight and easy to carry.<br>
     User Privacy: Implement strong privacy measures to protect users' data.<br>
     Legal and Ethical Compliance: Ensure the device complies with legal standards and ethical guidelines related to assistive technologies.<br>
+
+## Instructions to run the code<br><br>
+Clone the repo (or) download zip file and extract<br>
+Install all the required libraries using requirements.txt
+```
+pip install -r requirements.txt
+```
+
+Navigate the command prompt to the folder where codes are stored<br>
+Run "launch.py"
+```
+python launch.py
+```
+
