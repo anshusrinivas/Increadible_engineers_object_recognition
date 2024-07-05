@@ -8,7 +8,7 @@ Moto:
 Empowering Independence through Technology.
 
 Target:
-    Blind and visually impaired individuals<b>
+    Blind and visually impaired individuals<br>
     Organizations supporting visually impaired persons<b>
     Developers and researchers in assistive technologies<b>
 Implementation Steps:<b>
