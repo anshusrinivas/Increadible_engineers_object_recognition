@@ -1,0 +1,7 @@
+numpy
+keras
+OpenCV-python
+urllib
+imutils
+time
+imutils-video
